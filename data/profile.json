@@ -1,6 +1,6 @@
 {
     "name": "Ederson Santos",
-    "photo": "",
+    "photo": "https://github.com/ederson-joao/portfolio/blob/main/assets/img/my-photo.jpeg",
     "job": "Analista de Suporte",
     "location": "Santo André - SP",
     "phone": "(11) 9 4043-4501",
@@ -9,19 +9,19 @@
       "hardSkills": [
         {
           "name": "HTML",
-          "logo": ""
+          "logo": "https://raw.githubusercontent.com/ederson-joao/portfolio/main/assets/img/icons/tools/html.svg"
         },
         {
           "name": "CSS",
-          "logo": ""
+          "logo": "https://raw.githubusercontent.com/ederson-joao/portfolio/blob/main/assets/img/icons/tools/css.svg"
         },
         {
           "name": "JavaScript",
-          "logo": ""
+          "logo": "https://raw.githubusercontent.com/ederson-joao/portfolio/blob/main/assets/img/icons/tools/js.svg"
         },
         {
           "name": "GIT",
-          "logo": ""
+          "logo": "https://raw.githubusercontent.com/ederson-joao/portfolio/main/assets/img/icons/tools/git.svg"
         }
       ],
       "softSkills": [
@@ -44,7 +44,7 @@
       },
       {
         "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-        "url": "",
+        "url": "https://github.com/ederson-joao/portfolio",
         "github": true
       }
     ],
