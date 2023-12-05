@@ -1,0 +1,58 @@
+{
+    "name": "Ederson Santos",
+    "photo": "",
+    "job": "Analista de Suporte",
+    "location": "Santo André - SP",
+    "phone": "(11) 9 4043-4501",
+    "email": "ederson.joao@outlook.com",
+    "skills": {
+      "hardSkills": [
+        {
+          "name": "HTML",
+          "logo": ""
+        },
+        {
+          "name": "CSS",
+          "logo": ""
+        },
+        {
+          "name": "JavaScript",
+          "logo": ""
+        },
+        {
+          "name": "GIT",
+          "logo": ""
+        }
+      ],
+      "softSkills": [
+        "Empatia",
+        "Liderança",
+        "Trabalho em equipe",
+        "Flexibilidade",
+        "Organização"
+      ]
+    },
+    "languages": [
+      "Português BR (nativo)",
+      "Inglês (iniciante)"
+    ],
+    "portfolio": [
+      {
+        "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
+        "url": "https://github.com/ederson-joao/pokedex",
+        "github": true
+      },
+      {
+        "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
+        "url": "",
+        "github": true
+      }
+    ],
+    "professionalExperience": [
+      {
+        "name": "Analista de Suporte / Top NetWorks",
+        "period": "2020 - até o momento",
+        "description": ""
+      }
+    ]
+  }
