@@ -20,13 +20,17 @@
           "logo": "https://raw.githubusercontent.com/ederson-joao/portfolio/main/assets/img/icons/tools/js.svg"
         },
         {
-          "name": "GIT",
+          "name": "GitHub",
+          "logo": "https://raw.githubusercontent.com/ederson-joao/portfolio/main/assets/img/icons/tools/github.svg"
+        }
+        {
+          "name": "Git",
           "logo": "https://raw.githubusercontent.com/ederson-joao/portfolio/main/assets/img/icons/tools/git.svg"
         }
+
       ],
       "softSkills": [
         "Empatia",
-        "Liderança",
         "Trabalho em equipe",
         "Flexibilidade",
         "Organização"
@@ -50,8 +54,8 @@
     ],
     "professionalExperience": [
       {
-        "name": "Analista de Suporte / Top NetWorks",
-        "period": "2020 - até o momento",
+        "name": "Em breve.",
+        "period": "",
         "description": ""
       }
     ]
