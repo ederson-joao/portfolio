@@ -40,6 +40,16 @@
       "Português BR (nativo)",
       "Inglês (iniciante)"
     ],
+    "education": [
+    {
+      "name": "UNIP - Graduação em Ciência da Computação",
+      "period": "2018 - 2022"
+    },
+    {
+      "name": "DIO - Curso de Java Script",
+      "period": "12/2023"
+    }
+    ],
     "portfolio": [
       {
         "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
