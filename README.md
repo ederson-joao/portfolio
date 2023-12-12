@@ -1,5 +1,5 @@
 # :rocket: Portfólio
-Projeto de portfólio pessoal desenvolvido no com o cusrso ministrado pela DIO.
+Projeto de portfólio pessoal desenvolvido no curso ministrado pela DIO.
 
 # :clipboard: Pré-requisitos
 Ter instalado em seu computador o Node.js
