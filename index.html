@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portifólio</title>
+  <title>Portifólio | Ederson Santos</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
@@ -15,39 +15,42 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
 
-  <link rel="stylesheet" href="assets/css/global.css">
-  <link rel="stylesheet" href="assets/css/header.css">
-  <link rel="stylesheet" href="assets/css/acordeon.css">
-  <link rel="stylesheet" href="assets/css/languages.css">
-  <link rel="stylesheet" href="assets/css/portfolio.css">
-  <link rel="stylesheet" href="assets/css/experience.css">
-  <link rel="stylesheet" href="assets/css/skills.css">
-  <link rel="stylesheet" href="assets/css/education.css">
+  <link rel="stylesheet" href="assets/css/index.css">
 </head>
 
 <body>
   <main class="main">
     <header class="header">
-      <img src="assets/img/my-photo.jpeg" alt="Foto do Ederson" class="photo" id="profile.photo">
+      <img src="assets/img/my-photo.png" alt="Foto do Ederson" class="photo">
       
       <h1 class="title"> 
-        Olá, </br>eu sou <span id="profile.name">Carregando...</span>
+        Olá, </br>eu sou <span>Ederson Santos</span>
       </h1>
   
       <div class="information">
         <p class="job">
-          <a href="https://www.linkedin.com/in/ederson-joao/" id="profile.job"> Carregando...</a>
-
+          <a href="https://www.linkedin.com/in/ederson-joao/" target="_blank"> Desenvolvedor Front-End</a>
         </p>
-        <p class="location" id="profile.location">Carregando...</p>
-        <p class="phone">
-          <a href="tel:(11) 94043-4501" id="profile.phone">Carregando...</a>
-        </p>
+        <p class="location">Santo André - SP</p>
         <p class="email">
-          <a href="mailto:ederson.joao@outlook.com" id="profile.email">Carregando...</a>
+          <a href="mailto:ederson.joao@outlook.com">ederson.joao@outlook.com</a>
         </p>
       </div>
     </header>
+
+    <section class="acordeon">
+      <button class="trigger" type="button"> 
+          <h2>Sobre mim</h2>
+      </button>
+      
+      <div class="content">
+        <div class="about">
+            <p>Visto meu interesse em programação desde a Universidade, comecei a estudar e aprofundar meu conhecimento em Desenvolvimento 
+              de Software Web voltado inicialmente para Front-end, com isto já realizei diversos cursos sobre HTML, CSS, JavaScript e Github. 
+            <br>Estou agora estudando sobre React.js, sempre realizando a criação de diversos projetos ao longo do meu aprendizado.</p>
+        </div>
+      </div>
+    </section>
 
     <section class="acordeon">
       <button class="trigger" type="button"> 
@@ -58,17 +61,23 @@
         <div class="skills">
           <section class="tools">
             <h3>Habilidades profissionais:</h3>
-            <ul id="profile.skills.hardSkills">
+            <ul>
+              <li><img src="./assets/img/icons/tools/html.svg" alt="HTML5"></li>
+              <li><img src="./assets/img/icons/tools/css.svg" alt="CSS3"></li>
+              <li><img src="./assets/img/icons/tools/js.svg" alt="JavaScript"></li>
+              <li><img src="./assets/img/icons/tools/react.svg" alt="React"></li>
+              <li><img src="./assets/img/icons/tools/github.svg" alt="GitHub"></li>
+              <li><img src="./assets/img/icons/tools/git.svg" alt="Git"></li>
             </ul>
           </section>
 
           <section class="personal">
             <h3>Habilidades Pessoais:</h3>
-            <ul id="profile.skills.softSkills">
-              <li>Carregando...</li>
-              <li>Carregando...</li>
-              <li>Carregando...</li>
-              <li>Carregando...</li>
+            <ul>
+              <li>Empatia</li>
+              <li>Trabalho em equipe</li>
+              <li>Flexibilidade</li>
+              <li>Organização</li>
             </ul>
           </section>
         </div>
@@ -81,8 +90,9 @@
       </button>
       
       <div class="content">
-        <ul class="languages" id="profile.languages">
-          <li>Carregando...</li>
+        <ul class="languages">
+          <li>Português - Nativo</li>
+          <li>Inglês - Básico</li>
         </ul>
       </div>
     </section>
@@ -93,18 +103,29 @@
       </button>
       
       <div class="content">
-        <ul class="education" id="profile.education">
+        <ul class="education">
+          <li><img src="./assets/img/icons/certificate.png" alt="certificado">Bacharelado em Ciência Da Computação - UNIP</li>
+          <li><img src="./assets/img/icons/certificate.png" alt="certificado">Formação HTML e CSS Developer - Alura e DIO</li>
+          <li><img src="./assets/img/icons/certificate.png" alt="certificado">Formação JavaScript - Alura e DIO</li>
+          <li><img src="./assets/img/icons/certificate.png" alt="certificado">Formação React Developer - DIO</li>
+          <li><img src="./assets/img/icons/certificate.png" alt="certificado">Versionamento de Código com Git e GitHub - Alura e DIO</li>
         </ul>
       </div>
     </section>
 
     <section class="acordeon">
       <button class="trigger" type="button"> 
-          <h2>Portfólio</h2>
+          <h2>Projetos</h2>
       </button>
       
       <div class="content">
-        <ul class="portfolio" id="profile.portfolio">
+        <ul class="projects">
+          <li><a href="https://github.com/ederson-joao/calculator" target="_blank"><img src="./assets/img/icons/tool.png" alt="Ferramenta">Calculadora</a></li>
+          <li><a href="https://github.com/ederson-joao/age-calculator-app" target="_blank"><img src="./assets/img/icons/tool.png" alt="Ferramenta">Calculador De Idade</a></li>
+          <li><a href="https://github.com/ederson-joao/text-encryptor" target="_blank"><img src="./assets/img/icons/tool.png" alt="Ferramenta">Encriptador De Texto</a></li>
+          <li><a href="https://github.com/ederson-joao/advice-generator" target="_blank"><img src="./assets/img/icons/tool.png" alt="Ferramenta">Gerador De Conselhos</a></li>
+          <li><a href="https://github.com/ederson-joao/emoji-search" target="_blank"><img src="./assets/img/icons/tool.png" alt="Ferramenta">Pesquisa De Emojis</a></li>
+          <li><a href="https://github.com/ederson-joao/pokedex" target="_blank"><img src="./assets/img/icons/tool.png" alt="Ferramenta">Pokedex</a></li>
         </ul>
       </div>
     </section>
@@ -115,7 +136,8 @@
       </button>
       
       <div class="content">
-        <ul class="experience" id="profile.professionalExperience">
+        <ul class="experience">
+          <li><img src="./assets/img/icons/calendar.svg" alt="Calendario">Em Breve</li>
         </ul>
       </div>
     </section>
@@ -123,8 +145,6 @@
   </main>
 
   <script src='./assets/js/acordeon.js'></script>
-  <script src='./assets/js/api.js'></script>
-  <script src='./assets/js/main.js'></script>
 </body>
 
 </html>
