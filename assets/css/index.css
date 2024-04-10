@@ -270,8 +270,8 @@
 }
 
 .education li img {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     margin-right: 5px;
 }
 
@@ -309,8 +309,8 @@
 }
 
 .projects li img {
-    width: 24px;
-    height: 24px;
+    width: 16px;
+    height: 16px;
     margin-right: 5px;
 }
 
@@ -334,8 +334,8 @@
 
 .experience li img {
     margin-right: 5px;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
 }
 
 .experience li .period {
